@@ -15,9 +15,9 @@ pm_caption += "ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ          : [ᴊᴏɪɴ](ht
 
 pm_caption += "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ        : [ᴊᴏɪɴ](https://t.me/Dark_cobra_support_group)\n"
 
-pm_caption += "ʟɪᴄᴇɴꜱᴇ                 : [ᴍɪᴛ ʟɪᴄᴇɴꜱᴇ](https://github.com/DARK-COBRA/DARKCOBRA/blob/master/LICENSE)\n"
+pm_caption += "ʟɪᴄᴇɴꜱᴇ                 : [𝐒𝐀𝐍𝐒𝐊𝐀𝐑𝐈 𝐁𝐎𝐓](https://github.com/THESANSKARILADKA/SANSKARI-USERBOT/blob/master/LICENSE)\n"
 
-pm_caption += "ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ            : [ʜᴇʟʟʙᴏɪ - ᴀᴛᴜʟ](https://github.com/hellboi-atul)\n"
+pm_caption += "ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ            : [sᴀɴsᴋᴀʀɪ ʟᴀᴅᴋᴀ](https://github.com/THESANSKARILADKA)\n"
 
 #@command(outgoing=True, pattern="^.alive$")
 @borg.on(admin_cmd(pattern=r"alive"))
