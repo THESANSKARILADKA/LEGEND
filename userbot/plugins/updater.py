@@ -12,7 +12,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 from userbot import CMD_HELP, bot
 from userbot.utils import admin_cmd
 
-UPSTREAM_REPO_URL = "https://github.com/DARK-COBRA/DARKCOBRA.git"
+UPSTREAM_REPO_URL = "https://github.com/THESANSKARILADKA/SANSKARI-USERBOT.git"
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
 
@@ -108,9 +108,9 @@ async def upstream(ups):
         await ups.respond("do `.update now` to update")
         return
     if force_update:
-        await ups.edit('Force-Syncing to latest stable userbot code, please wait master...😅😅')
+        await ups.edit('Force-Syncing to latest stable userbot code, please wait master🙄🙄...😅😅')
     else:
-        await ups.edit('Updating userbot, please wait....you arey best boss🤗😇')
+        await ups.edit('Updating userbot, please wait....you are best boss🤗😇')
     if HEROKU_API_KEY is not None:
         import heroku3
         heroku = heroku3.from_key(HEROKU_API_KEY)
@@ -139,7 +139,7 @@ async def upstream(ups):
             remote.set_url(heroku_git_url)
         else:
             remote = repo.create_remote("heroku", heroku_git_url)
-        await ups.edit("Updating and Deploying New Update. Please wait for 5 minutes then use `.alive` to check if i'm working or not, you are my best boss...🤗🤗😎.. Just after this update a restart will take place..that's all- your DARK COBRA by @hellboi_atul ")
+        await ups.edit("Updating and Deploying New Update. Please wait for 5 minutes then use `.alive` to check if i'm working or not, you are my best boss...🤗🤗😎.. Just after this update a restart will take place..that's all- your SANSKARI USERBOT by @THESANSKARI_LADKA ")
         remote.push(refspec="HEAD:refs/heads/master", force=True)
     else:
         try:
