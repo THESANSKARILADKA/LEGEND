@@ -78,5 +78,4 @@ async def amireallyalive(alive):
                       "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/dark_cobra_support_group)\n"
                       "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
                       "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ ᔑᗩᑎᔑᏦᗩᖇᏆ ᏞᗩᗞᏦᗩ ](https://t.me/THESANSKARI_LADKA)\n"
-                               
-        await alive.delete()
+                          
