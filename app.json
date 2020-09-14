@@ -1,7 +1,7 @@
 {
-  "name": "𝔻𝔸ℝ𝕂 ℂ𝕆𝔹ℝ𝔸",
-  "description": "The best and most awaited userbot made by hellboi_atul and modified by Jarvis userbot's owner(Ram) Made with ❤ For Support Join @Dark_cobra_support ",
-  "logo": "https://telegra.ph/file/00f47c54ceda3944dc47c.jpg ",
+  "name": "sᴀɴsᴋᴀʀɪ ᴜsᴇʀʙᴏᴛ",
+  "description": "THE BEST BOT MADE BY TEAM COBRA AND THESANSKARI_LADKA ",
+  "logo": "https://telegra.ph/file/2f25e6c3b9fa244bee26f.jpg ",
     "keywords": [
     "telegram",
     "userbot",
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @hellboi_atul.",
+      "description": "Fill your Full name or Username like @THESANSKARI_LADKA.",
       "value": "",
       "required": false
     },
